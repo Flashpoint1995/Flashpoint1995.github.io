@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 78px;
+    background: url("../img/bg-small.png");
+    _background: url("../img/bg-big.png");
+}
+
+.saves, .edit {
+    min-height: 90vh;
+}
+
+.saves {
+    background: rgba(26, 29, 26, 0.082);
+    border: 1px dotted rgb(40,167,69);
+    _border-right: none;
+}
+
+.edit {
+    background: rgba(40,167,69, 0.5);
+    border: 1px dotted rgb(40,167,69);
+    border-left: none;
+}
