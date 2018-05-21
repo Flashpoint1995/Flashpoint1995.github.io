@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link href="src/img/favicon .ico" rel="icon" type="image/x-icon" />
+    <title>Infos</title>
+</head>
+<body class="text-white">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand text-green" href="index.html">YourSaves</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" class="sr-only"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-12 saves pt-2">
+                <u>
+                    <h5>Streams:</h5>
+                </u>
+                
+                <div><a target="_blank" href="https://mixer.com/peyda">mixer.com/peyda</a></div>
+                <div><a target="_blank" href="https://mixer.com/RoseVerehrer839">mixer.com/eugen</a></div>
+                <div><a target="_blank" href="https://mixer.com/draenoid">mixer.com/marcel</a></div>
+                <div><a target="_blank" href="https://mixer.com/Dulle">mixer.com/dulle</a></div>
+                <div><a target="_blank" href="https://mixer.com/Barcodellllllllll">mixer.com/daniel</a></div>
+                <div><a target="_blank" href="https://mixer.com/GedichtBogen212">mixer.com/akcan</a></div>
+                <br>
+
+                <u>
+                    <h5>Libraries:</h5>
+                </u>
+                <div><a class="text-success" target="_blank" href="http://thegreenlibrary.bitballoon.com/">http://thegreenlibrary.bitballoon.com</a></div>
+                <div><a class="text-primary" target="_blank" href="http://thebluelibrary.bitballoon.com/">http://thebluelibrary.bitballoon.com</a></div>
+                <div><a class="text-danger" target="_blank" href="http://theredlibrary.bitballoon.com/">http://theredlibrary.bitballoon.com</a></div>
+
+            </div>
+            <div class="col-sm-4 col-12 edit pt-2">
+                <u><h5 class="text-center">Infos/ToDo's:</h5></u>
+                <ol class="ml-3">
+                    <li>login</li>
+                    <li>datenbank</li>
+                    <li>animations</li>
+                    <li>yii2</li>
+                    <li>friendly link</li>
+                    <li>CMS</li>
+                    <li>localisation</li>
+                    <br>
+                    <li>Python</li>
+                    <li>Machine learning</li>
+                    <li>Automated Tasks</li>
+                    <br>
+                    <li>Forms</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <form id = 'test' >
+        First name:
+        <input type="text" name="fname">
+        <br> Last name:
+        <input type="text" name="lname">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
